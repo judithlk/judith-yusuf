@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 
 import { FaRegSun, FaRegMoon } from "react-icons/fa";
 
+import { Inter, Lato, Lumanosimo } from "next/font/google";
+
 export default function NavBar() {
   const route = usePathname();
 

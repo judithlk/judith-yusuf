@@ -3,6 +3,8 @@ import Wrapper from "./components/Wrapper";
 import InnerLink from "./components/InnerLink";
 import Tool from "./components/Tool";
 
+import { Inter, Lato, Lumanosimo } from "next/font/google";
+
 export default function Home() {
   return (
     <Wrapper>
@@ -13,7 +15,7 @@ export default function Home() {
         I enjoy creating stuff and solving problems with my knowledge, while building meaningful experience.
         </p>
         <p>
-        Read more <InnerLink href={"/about"}>about me</InnerLink> or check out my <InnerLink href={"/projects"}>projects.</InnerLink>
+        Read more <InnerLink href={"/about"} target="_self">about me</InnerLink> or check out my <InnerLink href={"/projects"} target="_self">projects.</InnerLink>
         </p>
       </section>
 
@@ -42,20 +44,20 @@ export default function Home() {
       <section className="space-y-5">
         <SectionHeading title="Hire Me" />
         <p>
-        I would love to put my creativity and experience, coupled with driving curiosity and a desire to learn, to work with a team of like-minded individuals to take your company&apos;s internet presence to the next level. Send an <InnerLink href="mailto:judithyusuf00@gmail.com">email</InnerLink> if you are interested in hiring me.
+        I would love to put my creativity and experience, coupled with driving curiosity and a desire to learn, to work with a team of like-minded individuals to take your company&apos;s internet presence to the next level. Send an <InnerLink href="mailto:judithyusuf00@gmail.com" target="_blank">email</InnerLink> if you are interested in hiring me.
         </p>
       </section>
 
       <section className="space-y-5">
         <SectionHeading title="Contact Me" />
         <p>
-        To get in touch, you can send me an <InnerLink href="mailto:judithyusuf00@gmail.com">email</InnerLink> or reach out on <InnerLink href="https://www.linkedin.com/in/judith-yusuf-21u14n/">LinkedIn</InnerLink>. I would love to hear from you.
+        To get in touch, you can send me an <InnerLink href="mailto:judithyusuf00@gmail.com" target="_blank">email</InnerLink> or reach out on <InnerLink href="https://www.linkedin.com/in/judith-yusuf-21u14n/" target="_blank">LinkedIn</InnerLink>. I would love to hear from you.
         </p>
       </section>
 
       <section className="space-y-5">
       <p>This site was built with NextJS, Tailwind CSS and TypeScript</p>
-      <p>The cool typing animation was made with <InnerLink href="http://www.mattboldt.com/">Typed.js</InnerLink> plugin</p>
+      <p>The cool typing animation was made with <InnerLink href="http://www.mattboldt.com/" target="_blank">Typed.js</InnerLink> plugin</p>
       </section>
     </Wrapper>
   );
