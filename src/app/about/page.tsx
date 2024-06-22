@@ -59,7 +59,7 @@ export default function About() {
         <SectionHeading title="Would you like to get in touch?" />
         <p>If my chatter has somehow intrigued you and you fancy an interaction, I have a <InnerLink href="https://twitter.com/judithiscoding" target="_blank">Twitter</InnerLink> account. I almost never check my dms (I almost never get any dms tbh), so if it&apos;s more pressing (like a project collaboration or job offer) you can send me an <InnerLink href="mailto:judithyusuf00@gmail.com" target="_blank">email</InnerLink>. Yes, I refresh my email every few hours waiting for good news, don&apos;t judge me.</p>
         <p>
-        I think I've overshared enough. Thanks for stopping by. x
+        I think I&apos;ve overshared enough. Thanks for stopping by. x
         </p>
       </section>
     </Wrapper>
