@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "hover-links": "#87556F",
+        "link-light": "#712B75",
+        "label-light": "#87556F",
+        "subhead-light": "#C74B50",
+        "dark-bg": "#322F3D",
+        "link-dark": "#C74B50",
+        "headers-dark": "#87556F",
+        "subhead-dark": "#87556F",
+        "label-hover-dark": "#D49B54",
+        "header-small-dark": "#D49B54",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
