@@ -48,7 +48,7 @@ export default function About() {
         My interest in coding started in September 2018, about 6 years ago. <i>Woah</i>. That actually sounds like a lot when you say it out loud (please read with your head voice).
         </p>
         <p>
-        I took a course on basic Front and Back End Development then, but I didn&apos;t really start my journey in the space until late 2022, so I&apos;ve only been a Web Dev for 3/2 year. My "interest" sparked into a passion for solving problems and creating <Link href="projects.html">cool stuff</Link> with code.
+        I took a course on basic Front and Back End Development then, but I didn&apos;t really start my journey in the space until late 2022, so I&apos;ve only been a Web Dev for 3/2 year. My &quot;interest&quot; sparked into a passion for solving problems and creating <Link href="projects.html">cool stuff</Link> with code.
         </p>
         <p>
         I&apos;ve had a great learning journey and picked up more knowledge and skills in a number of technologies and frameworks. I try to be impartial but <InnerLink href={"#"} target="_self">ReactJS</InnerLink> has my heart.
