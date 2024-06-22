@@ -12,7 +12,7 @@ export default function NavBar() {
   const route = usePathname();
 
   return (
-    <div className="w-[full] py-4 md:py-8 text-base md:text-xl font-semibold">
+    <div className="w-[full] py-4 md:py-8 text-base md:text-2xl font-semibold">
       <div className="max-w-[70%] m-auto flex flex-wrap justify-between md:justify-center md:space-x-14 ">
         <div className="mx-5 my-3">
           <Link href="/">
