@@ -9,7 +9,7 @@ export default function Home() {
       <section className="space-y-5">
         <SectionHeading title="Hello" />
         <p>
-        I'm a passionate web developer with a creative edge, constantly fueled by the desire to learn and grow in the ever-evolving digital world.
+        I{"'"}m a passionate web developer with a creative edge, constantly fueled by the desire to learn and grow in the ever-evolving digital world.
         I enjoy creating stuff and solving problems with my knowledge, while building meaningful experience.
         </p>
         <p>
@@ -42,7 +42,7 @@ export default function Home() {
       <section className="space-y-5">
         <SectionHeading title="Hire Me" />
         <p>
-        I would love to put my creativity and experience, coupled with driving curiosity and a desire to learn, to work with a team of like-minded individuals to take your company's internet presence to the next level. Send an <InnerLink href="mailto:judithyusuf00@gmail.com">email</InnerLink> if you are interested in hiring me.
+        I would love to put my creativity and experience, coupled with driving curiosity and a desire to learn, to work with a team of like-minded individuals to take your company{"'"}s internet presence to the next level. Send an <InnerLink href="mailto:judithyusuf00@gmail.com">email</InnerLink> if you are interested in hiring me.
         </p>
       </section>
 
