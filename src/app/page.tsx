@@ -57,7 +57,7 @@ export default function Home() {
 
       <section className="space-y-5">
       <p>This site was built with NextJS, Tailwind CSS and TypeScript</p>
-      <p>The cool typing animation was made with <InnerLink href="http://www.mattboldt.com/" target="_blank">Typed.js</InnerLink> plugin</p>
+      {/* <p>The cool typing animation was made with <InnerLink href="http://www.mattboldt.com/" target="_blank">Typed.js</InnerLink> plugin</p> */}
       </section>
     </Wrapper>
   );

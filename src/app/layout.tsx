@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Inter, Lato, Lumanosimo } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
+import { ReactNode } from "react";
+import { ThemeProvider } from "./context/ThemeContext";
 
-const inter = Inter({ subsets: ["latin"] })
-const lato = Lato({subsets: ["latin"], weight: ["400"]})
+const inter = Inter({ subsets: ["latin"] });
+const lato = Lato({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Welcome :: Judith Yusuf",
@@ -18,12 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={lato.className}>
-        <NavBar />
-        <div className="w-[full]">
-        {children}
-        </div>
-      </body>
+      <ThemeProvider>
+        <body className={`dark:bg-dark-bg ${lato.className}`}>
+          <NavBar />
+          <div className="w-[full]">{children}</div>
+        </body>
+      </ThemeProvider>
     </html>
   );
 }

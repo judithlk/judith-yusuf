@@ -10,7 +10,7 @@ export default function Projects() {
     return (
         <Wrapper>
             <section>
-                <ul className="list-disc space-y-5">
+                <ul className="list-disc space-y-3">
                     <li>
                     <p>
                     <InnerLink href="https://judithlk.github.io/book-finder/" target="_blank">Book Finder app</InnerLink>: Search any book and get information on it <br /> <InnerLink href="https://github.com/judithlk/book-finder" target="_blank">Github repo</InnerLink></p> 

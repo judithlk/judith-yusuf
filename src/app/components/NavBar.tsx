@@ -4,17 +4,21 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
+import { useTheme } from '../context/ThemeContext';
+
+
 import { FaRegSun, FaRegMoon } from "react-icons/fa";
 
-import { Inter, Lato, Lumanosimo } from "next/font/google";
 
 export default function NavBar() {
   const route = usePathname();
 
+  const { theme, toggleTheme } = useTheme();
+
   return (
-    <div className="w-[full] py-4 md:py-8 text-base md:text-2xl font-semibold">
-      <div className="max-w-[70%] m-auto flex flex-wrap justify-between md:justify-center md:space-x-14 ">
-        <div className="mx-5 my-3">
+    <div className="w-[full] py-6 md:py-7 text-base md:text-2xl font-semibold">
+      <div className="max-w-[80%] sm:max-w-[70%] m-auto flex flex-wrap justify-between md:justify-center md:space-x-14 ">
+        <div className="mx-5 my-4">
           <Link href="/">
             <h1
               className={`hover:text-hover-links ${
@@ -25,7 +29,7 @@ export default function NavBar() {
             </h1>
           </Link>
         </div>
-        <div className="mx-5 my-3">
+        <div className="mx-5 my-4">
           <Link href="/about">
             <h1
               className={`hover:text-hover-links ${
@@ -36,7 +40,7 @@ export default function NavBar() {
             </h1>
           </Link>
         </div>
-        <div className="mx-5 my-3">
+        <div className="mx-5 my-4">
           <Link href="/projects">
             <h1
               className={`hover:text-hover-links  ${
@@ -47,9 +51,9 @@ export default function NavBar() {
             </h1>
           </Link>
         </div>
-        <div className="flex items-center mx-5 my-3">
-          <FaRegSun className="size-5 stroke-1" />
-          <FaRegMoon className="size-5 stroke-1" />
+        <div className="flex items-center mx-5 my-4">
+          <FaRegSun className={`size-6 stroke-1 fill-sun-yellow cursor-pointer ${theme === "light" ? "hidden" : "block"}`} onClick={toggleTheme} />
+          <FaRegMoon className={`size-6 stroke-1 fill-hover-links cursor-pointer ${theme === "light" ? "block" : "hidden"}`} onClick={toggleTheme} />
         </div>
       </div>
     </div>

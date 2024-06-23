@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -19,6 +20,7 @@ const config: Config = {
         "subhead-dark": "#87556F",
         "label-hover-dark": "#D49B54",
         "header-small-dark": "#D49B54",
+        "sun-yellow": "#D49B54",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -15,13 +15,12 @@ export default function About() {
           When I&apos;m not coding, I am busy taking photos or writing, among other
           things. I would say I wear many hats, but I prefer to let my locs
           breathe. If you walk past{" "}
-          <Link
+          <InnerLink
             href="images/judithsface.jpeg"
-            className="text-link-light hover:underline font-semibold"
             target="_blank"
           >
             this person
-          </Link>{" "}
+          </InnerLink>{" "}
           on the street, there&apos;s a 93.6% chance it&apos;s me.
         </p>
         <p>
