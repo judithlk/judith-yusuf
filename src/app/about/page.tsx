@@ -2,7 +2,6 @@ import Wrapper from "../components/Wrapper";
 import SectionHeading from "../components/SectionHeading";
 import Link from "next/link";
 import InnerLink from "../components/InnerLink";
-import Animation from "../components/Animation";
 
 import { Inter, Lato, Lumanosimo } from "next/font/google";
 
