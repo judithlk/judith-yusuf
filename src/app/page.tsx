@@ -1,14 +1,20 @@
+"use client"
+
 import SectionHeading from "./components/SectionHeading";
 import Wrapper from "./components/Wrapper";
 import InnerLink from "./components/InnerLink";
 import Tool from "./components/Tool";
 
+import Image from "next/image";
+
 import { Inter, Lato, Lumanosimo } from "next/font/google";
 
+
 export default function Home() {
+
   return (
     <Wrapper>
-      <div className="md:flex">
+      <div className="">
         <div className="">
           <header className="mb-10 group">
             <h1 className="mb-1 font-mono text-4xl text-subhead-dark font-semibold md:text-6xl">
@@ -21,6 +27,10 @@ export default function Home() {
               frontend web developer 😏
             </div>
           </header>
+        </div>
+        <div className="relative">
+          <Image src={"/na na na.gif"} alt="" width={100} height={100} className="w-[100%] dark:hidden" />
+          <Image src={"/na na na dark.gif"} alt="" width={100} height={100} className="w-[100%] hidden dark:block" />
         </div>
       </div>
       <section className="space-y-5">

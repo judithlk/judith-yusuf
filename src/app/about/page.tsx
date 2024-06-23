@@ -8,7 +8,7 @@ import { Inter, Lato, Lumanosimo } from "next/font/google";
 export default function About() {
   return (
     <Wrapper>
-      <div className="md:flex">
+      <div className="">
         <div className="">
           <header className="mb-8 group">
             <h1 className="mb-1 font-mono font-semibold text-4xl text-black dark:text-subhead-dark  md:text-6xl">
