@@ -10,12 +10,11 @@ export default function About() {
     <Wrapper>
       <div className="md:flex">
         <div className="">
-          <header className="mb-10 group">
+          <header className="mb-8 group">
             <h1 className="mb-1 font-mono font-semibold text-4xl text-black dark:text-subhead-dark  md:text-6xl">
-            ABOUT ME <br className="block" />
-            <span className="text-base md:text-2xl font-semibold dark:text-sun-yellow">you can call me Judith </span>
+            <span className="text-2xl md:text-4xl font-semibold dark:text-sun-yellow">you can call me Judith </span>
             
-              <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-base md:text-2xl font-semibold text-black dark:text-sun-yellow">
+              <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-2xl md:text-4xl font-semibold text-black dark:text-sun-yellow">
                 or Jude or Judy😌
               </span>
               <span className="box-border inline-block w-1 h-6 ml-2 -mb-2 bg-gray-700 dark:bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>

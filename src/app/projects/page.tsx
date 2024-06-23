@@ -13,7 +13,6 @@ export default function Projects() {
         <div className="">
           <header className="mb-8 group">
             <h1 className="mb-1 font-mono text-4xl font-semibold text-subhead-light dark:text-subhead-dark md:text-5xl">
-              <span>check out </span>
               <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
                 my PROJECTS
               </span>
