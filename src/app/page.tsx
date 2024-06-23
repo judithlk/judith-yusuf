@@ -29,8 +29,8 @@ export default function Home() {
           </header>
         </div>
         <div className="relative">
-          <Image src={"/na na na.gif"} alt="" width={100} height={100} className="w-[100%] dark:hidden" />
-          <Image src={"/na na na dark.gif"} alt="" width={100} height={100} className="w-[100%] hidden dark:block" />
+          <Image src={"/na na na.gif"} alt="" width={100} height={100} className="w-[100%] md:w-[90%] m-auto dark:hidden" />
+          <Image src={"/na na na dark.gif"} alt="" width={100} height={100} className="w-[100%] md:w-[90%] m-auto hidden dark:block" />
         </div>
       </div>
       <section className="space-y-5">
